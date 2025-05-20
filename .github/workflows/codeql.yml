@@ -98,4 +98,4 @@ jobs:
         category: "/language:${{matrix.language}}"
 strategy:
   matrix:
-    language: [ 'javascript' ]  # or 'python', or remove if you're not using either
+    language: [ 'javascript' ,'python']  # or 'python', or remove if you're not using either
