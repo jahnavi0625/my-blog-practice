@@ -96,3 +96,6 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+strategy:
+  matrix:
+    language: [ 'javascript' ]  # or 'python', or remove if you're not using either
